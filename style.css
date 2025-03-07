@@ -1,7 +1,53 @@
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e3a8a, #0f172a); 
+    color: #c5d8f0; 
 }
-    
+
+/* intro Section */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* The title */
+.intro-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #93c5fd; 
+}
+
+/* Highlighted Words part */
+.intro-text .highlight {
+    font-weight: bold;
+    font-size: 3.7rem;
+    color: #60a5fa; 
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: #c5d8f0; 
+}
+
+/* For responsive design */
+@media (max-width: 768px) {
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+    .intro-text .highlight {
+        font-size: 2.7rem;
+    }
+    .intro-text p {
+        font-size: 1rem;
+    }
+}
