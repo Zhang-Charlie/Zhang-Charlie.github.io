@@ -39,8 +39,65 @@ body {
     color: #c5d8f0; 
 }
 
+
+
+/* projects */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Title for project*/
+.projects h2 {
+    font-size: 2.5rem;
+    color: #93c5fd; 
+    margin-bottom: 40px;
+}
+
+/* Container for Project Cards */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+    /* for small screens */
+}
+
+/* Individual Project Card */
+.project-card {
+    background-color: #0f172a; 
+    border-radius: 20px;      
+    width: 300px;            
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* sublte shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+    position: relative;
+}
+
+/* title */
+.project-info {
+    margin-bottom: 20px;
+}
+
+
+.project-title {
+    font-size: 1.5rem;
+    margin: 5px 0 0 0;
+    color: #ffffff; 
+}
+
 /* For responsive design */
 @media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
     .intro-text h1 {
         font-size: 2.5rem;
     }
