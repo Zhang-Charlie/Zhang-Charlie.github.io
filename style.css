@@ -37,6 +37,8 @@ body {
     font-size: 1.2rem;
     max-width: 600px;
     color: #c5d8f0; 
+    text-align: center;
+    transform: translateX(55px);
 }
 
 
