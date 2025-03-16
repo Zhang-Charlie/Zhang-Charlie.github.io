@@ -70,9 +70,9 @@ body {
 .project-card {
     background-color: #0f172a; 
     border-radius: 20px;      
-    width: 300px;            
+    width: 400px;            
     padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* sublte shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* shadow */
     display: flex;
     flex-direction: column;
     align-items: flex-start;   
@@ -82,6 +82,11 @@ body {
 /* title */
 .project-info {
     margin-bottom: 20px;
+}
+
+.project-info p{
+    margin-bottom: 20px;
+    color: #ffffff; 
 }
 
 
