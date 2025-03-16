@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom, #1e3a8a, #0f172a); 
+    background: linear-gradient(to bottom, #0a2f95, #3e63a3); 
     color: #c5d8f0; 
 }
 
@@ -23,14 +23,14 @@ body {
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 1rem;
-    color: #93c5fd; 
+    color: #ffffff; 
 }
 
 /* Highlighted Words part */
 .intro-text .highlight {
     font-weight: bold;
     font-size: 3.7rem;
-    color: #60a5fa; 
+    color: #ec8841; 
 }
 
 .intro-text p {
@@ -47,12 +47,13 @@ body {
 .projects {
     padding: 60px 20px;
     text-align: center;
+
 }
 
 /* Title for project*/
 .projects h2 {
     font-size: 2.5rem;
-    color: #93c5fd; 
+    color: #ffffff; 
     margin-bottom: 40px;
 }
 
@@ -108,6 +109,6 @@ body {
     }
     .intro-text p {
         font-size: 1rem;
-        transform: translateX(0);  /* Remove the horizontal shift */
+        transform: translateX(0); 
     }
 }
